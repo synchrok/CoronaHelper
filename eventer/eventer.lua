@@ -24,7 +24,7 @@ function Eventer:remove(tag)
     for i, v in pairs(self.events) do
         if v.tag == tag then
             v.o:removeEventListener(v.name, v.func)
-            table.remove(self.events, v)
+            table.remove(self.events, i)
             break
         end
     end
