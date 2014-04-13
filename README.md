@@ -1,17 +1,16 @@
 # CoronaHelper
 
 Helper Classes for Corona SDK
- * Helper
+ * Helper (Wrapper Class for easy to use Corona SDK)
  * Eventer (Management Class for EventListener)
+ * Timer (Management Class for Timer)
  * Resourcer (Management Class for Resources)
 
 ## Usage & Examples
 
 ### Herlper
-
-First, Import helper class.
     
-    require("helper")
+    require("Helper")
 
 ...
 
@@ -19,7 +18,7 @@ First, Import helper class.
 
 ###### First, create eventer object with import eventer class.
     
-    local eventner = require("eventer"):new()
+    local eventner = require("Eventer"):new()
 
 ###### Second, add any event listeners with using eventer class.
 (Example: Runtime-enterFrame)
@@ -49,11 +48,15 @@ or remove all listeners
 
 ...
 
-### Resourcer
-
-First, Import resourcer class.
+### Timer
     
-    require("resourcer")
+    require("Timer")
+
+...
+
+### Resourcer
+    
+    require("Resourcer")
 
 ...
 
