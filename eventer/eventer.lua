@@ -1,4 +1,15 @@
 
+--[[
+
+    Eventer
+
+    Author: Woosung Jeon
+    Version: 1.0.0
+
+    A library for easily add or remove event listener with tag. 
+
+]]
+
 module(..., package.seeall)
 
 Eventer = {}

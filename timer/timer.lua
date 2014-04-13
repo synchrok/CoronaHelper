@@ -1,4 +1,16 @@
 
+--[[
+
+    Advanced Timer
+
+    Author: Woosung Jeon
+    Version: 1.0.0
+
+    A library for easily using timer with tag. 
+    (based on default timer)
+
+]]
+
 module(..., package.seeall)
 
 Timer = {}
